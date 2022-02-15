@@ -3,16 +3,16 @@ FROM node:14.19.0-alpine3.15
 # Create app directory
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+#COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+#RUN npm install
 
 # Bundle app source
-COPY . .
+#COPY . .
 
 # Port
 EXPOSE 3000
 
 # Run command
-CMD [ "node", "server.js" ]
+#CMD [ "node", "server.js" ]
