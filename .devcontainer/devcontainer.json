@@ -6,7 +6,8 @@
             "VARIANT": "14"
         }
     },
-    "postCreateCommand": "./.devcontainer/setup.sh",
+    "postCreateCommand": "chmod u+x ./.devcontainer/setup.sh; ./.devcontainer/setup.sh",
+    "remoteUser": "root",
 	"forwardPorts": [
 		3000
 	],
