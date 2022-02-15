@@ -6,6 +6,7 @@
             "VARIANT": "14"
         }
     },
+    "postCreateCommand": "npm install",
 	"forwardPorts": [
 		3000
 	],
