@@ -6,7 +6,7 @@
             "VARIANT": "14"
         }
     },
-    "postCreateCommand": "npm install",
+    "postCreateCommand": "./.devcontainer/setup.sh",
 	"forwardPorts": [
 		3000
 	],
