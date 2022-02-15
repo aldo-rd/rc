@@ -6,6 +6,11 @@
             "VARIANT": "14"
         }
     },
-    "forwardPorts": [3000],
+	"forwardPorts": [
+		3000
+	],
+	"extensions": [
+		"ms-azuretools.vscode-docker"
+	],
     
 }
