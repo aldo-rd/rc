@@ -1,0 +1,11 @@
+{
+    "name": "rc",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "VARIANT": "14"
+        }
+    },
+    "forwardPorts": [3000],
+    
+}
